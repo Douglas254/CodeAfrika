@@ -2,6 +2,7 @@ body {
   font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Top Navbar section */
 .nav-link {
   font-size: 13px !important;
   font-weight: 900 !important;
@@ -35,7 +36,6 @@ body {
 }
 
 #imagelogo {
-  height: 1% !important;
   align-items: center;
   padding: 0 12px 0 0;
 }
@@ -46,6 +46,103 @@ body {
 
 .logotext:hover {
   border-bottom: 2px solid gray;
+}
+
+/* Sub Navbar section */
+.sub-navbar {
+  overflow: hidden;
+  background-color: #753773;
+}
+
+.sub-navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown-m {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown-m .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-m .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-m .dropbtn:hover {
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 40px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(98, 94, 94, 0.663);
+}
+
+.show {
+  display: block;
+}
+
+.sub-navbar {
+  display: block;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sub-navbar a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+.dot {
+  font-size: 15px;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 991px) {

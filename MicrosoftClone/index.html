@@ -7,14 +7,20 @@
     <meta name="author" content="Douglas Obara" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script defer src="./js/bootstrap.bundle.min.js"></script>
+    <script defer src="./js/script.js"></script>
     <title>Microsoft Power Apps Clone</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <!-- Top Navbar  -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid sticky-lg-top">
+
+      <nav class="navbar ms-4 navbar-expand-lg navbar-light">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img
               id="imagelogo"
@@ -207,6 +213,35 @@
           </div>
         </div>
       </nav>
+
+      <!-- Sub Navbar -->
+      <div class="subnav">
+        <div class="sub-navbar">
+          <a href="#">Register</a><span class="dot">.</span>
+          <a href="#">Sign in</a><span class="dot">.</span> <a href="#">Help</a
+          ><span class="dot">.</span>
+          <div class="dropdown-m me-4">
+            <button class="dropbtn" onclick="dropdownFun()">
+              Got To
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdownMenu">
+              <a href="#">Power Apps Community</a>
+              <a href="#">Welcome to the Community</a>
+              <a href="#">Get help witth Power Apps</a>
+              <a href="#">Building Power Apps</a>
+              <a href="#">Microsoft Dataverse</a>
+              <a href="#">AI Builder</a>
+              <a href="#">Power Apps Governance and Administering</a>
+              <a href="#">AI Builder</a>
+              <a href="#">Power Apps Pro Dev & ISV</a>
+              <a href="#">Power Apps Portals</a>
+              <a href="#">Connector Development</a>
+              <a href="#">Power Query</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
