@@ -1,0 +1,63 @@
+body {
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-link {
+  font-size: 13px !important;
+  font-weight: 900 !important;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-item {
+  padding: 0 12px !important;
+}
+
+.dropdown-item {
+  font-size: 13px !important;
+  border-bottom: 1px solid gray !important;
+  padding: 10px 0px;
+}
+
+.navbar-brand {
+  font-size: 18px !important;
+  padding: 0 12px 0 0 0 !important;
+}
+
+.navbar-brand img {
+  max-width: 150px;
+}
+
+#separator {
+  margin: 0px 5px;
+}
+
+#imagelogo {
+  height: 1% !important;
+  align-items: center;
+  padding: 0 12px 0 0;
+}
+
+.logotext {
+  font-size: 18px;
+}
+
+.logotext:hover {
+  border-bottom: 2px solid gray;
+}
+
+@media (max-width: 991px) {
+  .nav-link {
+    border-bottom: 1px solid gray;
+  }
+  .bordert {
+    border-top: 1px solid gray;
+    margin-top: 5px;
+  }
+  .dropdown-menu li {
+    background-color: #e6e6e6;
+    padding: 10px 0px;
+  }
+}
