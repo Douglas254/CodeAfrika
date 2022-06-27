@@ -1,6 +1,14 @@
+:root {
+  --bg-color: #f9f9f9;
+  --primary-color: #4a1429;
+  --primary-dark-color: #260000;
+  --primary-light-color: #783e51;
+  --secondary-color: #340e25;
+}
+
 body {
   font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #f8f8f8 !important;
+  background-color: var(--bg-color) !important;
 }
 
 /* Top Navbar section */
@@ -10,7 +18,7 @@ body {
 }
 
 .nav-link:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--primary-dark-color);
 }
 
 .nav-item {
@@ -39,6 +47,8 @@ body {
 #imagelogo {
   align-items: center;
   padding: 0 12px 0 0;
+  width: 100%;
+  height: auto;
 }
 
 .logotext {
@@ -52,7 +62,7 @@ body {
 /* Sub Navbar section */
 .sub-navbar {
   overflow: hidden;
-  background-color: #753773;
+  background-color: var(--primary-color);
 }
 
 .sub-navbar a {
@@ -116,7 +126,11 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: rgba(98, 94, 94, 0.663);
+  background-color: var(--primary-color);
+}
+.dropdown-menu a:hover {
+  background-color: var(--secondary-color) !important;
+  color: white;
 }
 
 .show {
@@ -148,7 +162,6 @@ body {
 
 .search-section {
   display: flex;
-  /* justify-content: space-around; */
   align-items: center;
 }
 
@@ -157,23 +170,28 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #f3eef5;
+  background-color: var(--primary-light-color);
 }
 
 .btn:focus {
-  border: 2px dotted #753773 !important;
+  border: 2px dotted var(--bg-color) !important;
   box-shadow: none !important;
 }
 
 .bg:hover {
-  background-color: rgba(237, 77, 19, 0.706) !important;
+  background-color: var(--primary-light-color) !important;
   color: white !important;
 }
 
 #search {
   border: none;
-  background-color: #f3eef5;
+  background-color: var(--primary-light-color);
   font-size: 13px;
+  color: white !important;
+}
+
+::placeholder {
+  color: whitesmoke;
 }
 
 form {
@@ -182,7 +200,8 @@ form {
 }
 
 .fa-search {
-  background-color: white !important;
+  background-color: var(--primary-light-color) !important;
+  color: white;
 }
 
 .fa-search:hover {
@@ -221,7 +240,7 @@ form {
 
 .btnReply {
   border-radius: 0px !important;
-  background-color: #753773 !important;
+  background-color: var(--primary-color) !important;
   color: white !important;
 }
 
@@ -230,13 +249,13 @@ form {
 }
 
 .btnTopicOptions {
-  border: 1px solid #4f4f4f !important;
+  border: 1px solid var(--primary-dark-color) !important;
   border-radius: 0px !important;
-  background-color: #e8e8e8 !important;
+  background-color: var(--primary-light-color) !important;
 }
 
 .btnTopicOptions:hover {
-  background-color: #4a4a4a5d !important;
+  background-color: var(--primary-dark-color) !important;
   text-decoration: underline;
   transition: 0.1s ease-in;
 }
@@ -256,7 +275,16 @@ form {
 }
 
 .purple {
-  color: #753773 !important;
+  color: var(--primary-light-color) !important;
+}
+
+.tldisabled:hover {
+  background-color: var(--primary-dark-color) !important;
+  color: white !important;
+}
+
+.tl:hover {
+  color: white !important;
 }
 
 .QASection {
@@ -277,17 +305,17 @@ form {
 .QABtn {
   width: 100%;
   height: 40px;
-  background-color: #c5f5ce;
-  border: 1px solid #306016;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-dark-color);
 }
 
 .QABtnSpan {
-  color: #326316;
+  color: whitesmoke;
   padding: 0 5px;
 }
 
 .BtnLink {
-  color: #796866;
+  color: #8f8c8b;
   text-decoration: none;
 }
 
@@ -297,24 +325,24 @@ form {
 }
 
 .labelColor {
-  color: #753773b1;
+  color: var(--primary-color) b1;
   text-decoration: none;
 }
 
 .labelColor:hover {
-  color: #753773fc;
+  color: var(--primary-color) fc;
   text-decoration: underline;
 }
 
 .likeAndReply i {
   font-size: 25px;
   border-radius: 0px !important;
-  background-color: purple;
+  background-color: #584b48;
   color: white;
 }
 
 .likeAndReply i:hover {
-  background-color: rgb(93, 29, 93);
+  background-color: var(--primary-dark-color);
   color: white;
 }
 
