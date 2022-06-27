@@ -353,6 +353,29 @@ form {
   color: white !important;
 }
 
+.controls:hover {
+  background-color: rgba(0, 0, 0, 0.906) !important;
+  border-radius: 60px;
+  padding: 20px;
+  transition: 0.3s ease-in;
+}
+
+.carouselBtn {
+  text-decoration: none;
+  color: white;
+}
+
+.border-rad {
+  border-radius: 30px !important;
+}
+
+.box-shad {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+.carouselBtn:hover {
+  color: white;
+}
 @media (max-width: 991px) {
   .nav-link {
     border-bottom: 1px solid gray;
@@ -375,6 +398,10 @@ form {
     display: none !important;
   }
   .breadcrumbparagraph {
+    display: none;
+  }
+
+  .box-shad {
     display: none;
   }
 }
