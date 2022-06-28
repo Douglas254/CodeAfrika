@@ -376,6 +376,37 @@ form {
 .carouselBtn:hover {
   color: white;
 }
+
+.footer {
+  background-color: var(--primary-dark-color);
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.ml {
+  margin-left: 4%;
+}
+
+.ml i {
+  background-color: var(--bg-color);
+  margin: 0 10px;
+  font-size: 23px;
+  color: var(--primary-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.ml i:hover {
+  color: var(--primary-dark-color);
+}
+
 @media (max-width: 991px) {
   .nav-link {
     border-bottom: 1px solid gray;
@@ -400,7 +431,6 @@ form {
   .breadcrumbparagraph {
     display: none;
   }
-
   .box-shad {
     display: none;
   }
