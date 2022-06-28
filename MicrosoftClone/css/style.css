@@ -407,6 +407,62 @@ form {
   color: var(--primary-dark-color);
 }
 
+/* Top authors right sidebar */
+.authorscard {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 10%);
+}
+
+.authorscard h4:nth-child(1) {
+  font-size: 20px;
+  line-height: 19px;
+  font-family: "SegoeUI-Bold", "Lato", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  border-bottom: 1px solid #d3d0d0;
+  padding: 11px 16px;
+}
+
+.topauthorlink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 22px;
+}
+
+.topauthorlink a {
+  text-decoration: none;
+  color: var(--primary-dark-color);
+}
+
+.topauthorlink a:hover {
+  color: var(--primary-dark-color);
+  text-decoration: underline;
+}
+
+.topauthorlink img {
+  border-radius: 50px;
+  margin-right: 14px;
+}
+
+.topauthorlink img:nth-child(2) {
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.authorlink a {
+  margin-top: 10px;
+  color: var(--primary-dark-color);
+  text-decoration: none;
+}
+
+.authorlink a:hover {
+  margin-top: 10px;
+  color: var(--primary-dark-color);
+  text-decoration: underline;
+}
 @media (max-width: 991px) {
   .nav-link {
     border-bottom: 1px solid gray;
