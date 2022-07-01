@@ -5,7 +5,7 @@ import TopNavbar from "./components/Navbar/TopNavbar";
 import SubNavbar from "./components/Navbar/SubNavbar";
 import Searchbar from "./components/Navbar/Searchbar";
 import Breadcrumb from "./components/Breadcrumb/Breadcrumb";
-
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="container-fluid">
@@ -14,6 +14,8 @@ function App() {
       <SubNavbar />
       <Searchbar />
       <Breadcrumb />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
