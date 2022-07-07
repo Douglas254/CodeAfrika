@@ -247,6 +247,66 @@ body {
   margin: 0;
 }
 
+/* Community section */
+.community {
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  margin-bottom: 22px;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
+}
+
+.discussion-title {
+  padding: 20px 20px 20px 0px;
+}
+
+.discussion-title a {
+  font-size: smaller;
+  padding-right: 10px;
+  color: gray !important;
+  text-decoration: none;
+}
+
+.discussion-title a:hover {
+  text-decoration: underline;
+}
+
+.community-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-light-color);
+  color: white;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.community-header-msg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.community-comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.msg-icon {
+  font-size: 30px;
+}
+
+.latest-topic {
+  font-size: smaller;
+  color: gray;
+}
+
+.news-announcements h6 a {
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
 @media (max-width: 991px) {
   .nav-link {
     border-bottom: 1px solid gray;
