@@ -1,0 +1,12 @@
+:root {
+  --bg-color: #f9f9f9;
+  --primary-color: #4a1429;
+  --primary-dark-color: #260000;
+  --primary-light-color: #783e51;
+  --secondary-color: #340e25;
+}
+
+body {
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+}
