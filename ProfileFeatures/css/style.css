@@ -7,6 +7,55 @@
 }
 
 body {
-  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: var(--bg-color);
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  background-color: #f3f2ef;
+  margin: 5% !important;
+}
+
+.card {
+  box-shadow: 0 3px 3px -2px rgb(39 44 51 / 10%), 0 3px 4px 0 rgb(39 44 51 / 4%),
+    0 1px 8px 0 rgb(39 44 51 / 2%);
+  border-radius: 0.5rem;
+  padding: 20px;
+}
+
+.institution-image {
+  width: 15%;
+}
+
+.institution-image img {
+  width: 100%;
+  border: 1px solid var(--primary-dark-color);
+  border-radius: 100px;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.icons i {
+  background-color: #303840 !important;
+  color: white !important;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 100px;
+  margin: 0 3px;
+}
+
+.course {
+  font-size: 18px;
+}
+
+.date {
+  font-size: 15px;
+  color: gray;
+}
+
+@media (max-width: 576px) {
+  .card {
+    padding: 10px;
+  }
+  .institution-image {
+    width: 25%;
+  }
 }
