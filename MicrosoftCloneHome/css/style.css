@@ -300,6 +300,17 @@ body {
   color: gray;
 }
 
+.topic-link {
+  color: var(--primary-light-color);
+  font-size: smaller;
+  text-decoration: none;
+}
+
+.topic-link:hover {
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
 .news-announcements h6 a {
   color: var(--primary-color);
   text-decoration: none;
@@ -307,6 +318,9 @@ body {
   margin: 0px !important;
 }
 
+.news-announcements a:hover {
+  text-decoration: underline;
+}
 @media (max-width: 991px) {
   .nav-link {
     border-bottom: 1px solid gray;
